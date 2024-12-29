@@ -44,7 +44,7 @@ if option == 1:
 else:
    system('clear')
    exit()
-pass_file = open(file_path,'r')
+pass_file = open(file_path,'pass.txt')
 pass_list = pass_file.readlines()
 def login():
     i = 0
@@ -71,4 +71,4 @@ def login():
             break
          else:
             print '[!] password not found => ' + password
-login(pass.txt)
+login()
