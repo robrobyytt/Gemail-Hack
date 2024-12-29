@@ -44,7 +44,7 @@ if option == 1:
 else:
    system('clear')
    exit()
-pass_file = open(pass.txt,'r')
+pass_file = open('pass.txt', 'r')
 pass_list = pass_file.readlines()
 def login():
     i = 0
